@@ -1,5 +1,5 @@
 {
-  "name": "DieKeureBoekE",
+  "name": "phonegap-hammer-zone-angular-issue",
   "version": "1.0.8",
   "scripts": {
     "start": "live-server --entry-file=index.html"
