@@ -1,12 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.epyc.boeke" version="1.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Die Keure Boek-E</name>
+    <name>Test App</name>
     <description>
-        Die Keure Boek-E
+        Test App
     </description>
-    <author email="info@epyc.be" href="http://www.epyc.be">
-        Epyc For E-learning
-    </author>
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="cli-5.2.0" />
     <preference name="orientation" value="default" />
