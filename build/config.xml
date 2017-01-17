@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.epyc.boeke" version="1.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Die Keure Boek-E</name>
+    <description>
+        Die Keure Boek-E
+    </description>
+    <author email="info@epyc.be" href="http://www.epyc.be">
+        Epyc For E-learning
+    </author>
+    <preference name="permissions" value="none" />
+    <preference name="phonegap-version" value="cli-5.2.0" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="false" />
+    <preference name="auto-hide-splash-screen" value="false" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="disable-push-notifications" value="1" />
+    <preference name="SplashScreen" value="splash" />
+    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <icon src="icon.png" />
+
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <gap:config-file overwrite="true" parent="UIViewControllerBasedStatusBarAppearance" platform="ios">
+        <false />
+    </gap:config-file>
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" version="1.4.0" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-splashscreen" spec="~4.0.1" />
+    <access origin="*" />
+</widget>

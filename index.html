@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <base href="/">
+
+    <title>Zone issue</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="node_modules/hammerjs/hammer.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script src="config.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<app>
+    <p class="loading-screen">Please wait...</p>
+</app>
+
+<script>
+    System.import('app').then(null, console.error.bind(console));
+</script>
+</body>
+</html>

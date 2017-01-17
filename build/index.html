@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript">
+		var baseLoadpath;
+
+		if (window.cordova != undefined) {
+			baseLoadpath = 'index.html';
+		} else {
+			baseLoadpath = '/';
+		}
+
+		document.writeln('<' + 'base href="' + baseLoadpath + '">')
+	</script>
+
+	<title>Die Keure - Boek-E</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<script type="text/javascript">
+		window.onerror = function(message, url, lineNumber) {
+//			alert("Error: "+message+" in "+url+" at line "+lineNumber);
+		}
+	</script>
+
+
+	<script src="node_modules/core-js/client/shim.min.js"></script>
+
+	<script src="node_modules/zone.js/dist/zone.js"></script>
+	<script src="node_modules/reflect-metadata/Reflect.js"></script>
+
+	<script src="node_modules/systemjs/dist/system.src.js"></script>
+
+	<script src="node_modules/hammerjs/hammer.min.js"></script>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+	<script src="external_scripts/jquery-ui/jquery-ui.min.js"></script>
+	<script src="external_scripts/jquery.ui.touch-punch.min.js"></script>
+
+	<script src="config.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/icomoon/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<app></app>
+
+<script src="app.js"></script>
+<script type="text/javascript" src="https://debug3.phonegap.com/target/target-script-min.js#ae4652ea-4834-11e6-9bf4-0688e626a9a9"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.idea/
+build/external_scripts/
+node_modules/
+jspm_packages/
+npm-debug.log
+build/app.js
+credentials.js
+build/app.zip
+build/css
+build/node_modules
+build/app.js.map
+build/external_scripts
+webapp/css
+webapp/node_modules
+webapp/external_scripts
+webapp/app.js
+webapp/app.js.map
