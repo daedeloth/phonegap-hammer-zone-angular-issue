@@ -1,3 +1,6 @@
+Stack overflow question:
+http://stackoverflow.com/questions/41697671/no-tick-call-when-using-phonegap-hammerjs-angularjs-or-zonejs-android
+
 No tick call when using phonegap + hammerjs + angularjs or zonejs + android
 ===========================================================================
 I have an app built in angular2 that works fine in browser and when phonegap-bundled for iOS. It uses hammerjs to handle touch events like pan and pinch.
