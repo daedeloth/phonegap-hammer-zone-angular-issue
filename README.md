@@ -27,3 +27,5 @@ npm install
 node_modules/jspm/jspm.js install
 grunt
 ```
+
+Now zip the content from the build/ folder and upload it to build.phonegap.com.
